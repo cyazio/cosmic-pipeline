@@ -91,6 +91,8 @@ cd cosmic-pipeline
 pip install -r requirements.txt
 
 # 3. (İsteğe bağlı) NASA API key tanımla
+# DEMO_KEY ile çalışır ama rate limit'e takılabilir.
+# Ücretsiz kişisel key için: https://api.nasa.gov
 echo "NASA_API_KEY=your_key_here" > .env
 
 # 4. Çalıştır
